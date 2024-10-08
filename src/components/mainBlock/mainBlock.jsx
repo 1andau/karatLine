@@ -6,23 +6,51 @@ const MainBlock = () => {
   return (
 
 
-<div className="flex justify-center items-center h-screen w-screen">
-  <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mx-auto max-w-7xl h-full">
-    <div className="w-full md:w-2/3 bg-blue-500 overflow-y-auto p-4">
-      <h1 className="text-white">Первая секция</h1>
-      <p className="text-white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
+    <div className="flex justify-center items-center h-screen w-screen">
+    <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mx-auto max-w-7xl h-full">
+      <div className="w-full md:w-2/3 bg-blue-500 overflow-y-auto p-4">
+        <h1 className="text-white">Первая секция</h1>
+        <div className="grid grid-cols-2 gap-0">
+         <img src="/assets/1.png" alt="Image 1" className="w-full h-auto" />
+         <img src="/assets/2.png" alt="Image 2" className="w-full h-auto" />
+         <img src="/assets/3.png" alt="Image 3" className="w-full h-auto" />
+         <img src="/assets/4.png" alt="Image 4" className="w-full h-auto" />
+         <img src="/assets/5.png" alt="Image 5" className="w-full h-auto" />
+         <img src="/assets/6.png" alt="Image 6" className="w-full h-auto" />
+        </div>
+      </div>
 
-    <div className="w-full md:w-1/3 bg-green-500 overflow-y-auto p-4">
-      <h1 className="text-white">Вторая секция</h1>
-      <p className="text-white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <div className="w-full md:w-1/3 bg-green-500 overflow-y-auto p-4">
+        <h1 className="text-white">Вторая секция</h1>
+        <p className="text-white">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
     </div>
   </div>
-</div>
+
+    // <div className="flex justify-center items-center h-screen w-screen">
+    //   <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mx-auto max-w-7xl h-full">
+    //     <div className="w-full md:w-2/3 bg-blue-500 overflow-y-auto p-4">
+    //       <h1 className="text-white">Первая секция</h1>
+    //       <div className="grid grid-cols-2 gap-4">
+    //         <img src="/assets/1.png" alt="Image 1" className="w-full h-auto" />
+    //         <img src="/assets/2.png" alt="Image 2" className="w-full h-auto" />
+    //         <img src="/assets/3.png" alt="Image 3" className="w-full h-auto" />
+    //         <img src="/assets/4.png" alt="Image 4" className="w-full h-auto" />
+    //         <img src="/assets/5.png" alt="Image 5" className="w-full h-auto" />
+    //         <img src="/assets/6.png" alt="Image 6" className="w-full h-auto" />
+    //       </div>
+    //     </div>
+
+    //     <div className="w-full md:w-1/3 bg-green-500 overflow-y-auto p-4">
+    //       <h1 className="text-white">Вторая секция</h1>
+    //       <p className="text-white">
+    //         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    //       </p>
+    //     </div>
+    //   </div>
+    // </div>
 
   
   )
