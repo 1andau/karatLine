@@ -49,6 +49,21 @@ const MainBlock = () => {
     "585",
     "Фианит",
   ]
+
+
+  const sizes = [
+    "15", 
+   "15.5",
+    "16",
+    "16.5",
+   " 17",
+   " 17.5",
+    "18",
+    "18.5",
+    "19",
+    "19.5",
+    "20",
+  ]
   const handleCategoryClick = (index) => {
     setActiveCategory(index);
   };
@@ -177,11 +192,11 @@ const MainBlock = () => {
 
       <div className="flex items-center justify-between pt-2.5">
         <div className="flex items-center">
-        <span class="text-[#2E2E30] text-xl text-sm mr-2">20 902 ₽</span>
-          <span class="text-[#2E2E30] text-xl line-through mr-2">22 680 ₽</span>
-          <div class="bg-[#D43939] text-white text-sm p-2 rounded">15%</div>
+        <span className="text-[#2E2E30] text-xl text-sm mr-2">20 902 ₽</span>
+          <span className="text-[#2E2E30] text-xl line-through mr-2">22 680 ₽</span>
+          <div className="bg-[#D43939] text-white text-sm p-2 rounded">15%</div>
           </div>
-          <img src="/assets/icons/down.svg" alt="Arrow" class="w-4 h-4" />
+          <img src="/assets/icons/down.svg" alt="Arrow" className="w-4 h-4" />
 
           </div> 
 
@@ -193,8 +208,68 @@ const MainBlock = () => {
 <span className='text-[#2E2E30] underline decoration-dotted ine-through mr-2 pt-1	'>Как выбрать размер</span>
 
 </div>
+
+<div className="flex flex-wrap mt-4 ">
+        {sizes.map((size, key) => (
+        <div className="ring-size mr-2 mb-2 border border-[#808080] p-1 flex-grow text-xs text-[#2E2E30]" key={key} > {size} </div>
+        ))}
+        
+       
+
+      </div>
 </div>
 
+
+
+<div className="flex space-x-4 mt-4">
+      <div className="border border-[#808080] p-4 flex items-center justify-between w-full">
+        <span className="text-[#2E2E30] text-sm">5100 ₽ х 4</span>
+        <div className="flex items-center">
+          <span className="text-[#2E2E30] text-sm mr-2">Долями</span>
+          <img src="/assets/icons/2.svg" alt="Arrow" className="w-4 h-4"/>
+        </div>
+      </div>
+      <div className="border border-[#808080] p-4 flex items-center justify-between w-full">
+        <span className="text-[#2E2E30] text-sm">5100 ₽ х 4</span>
+        <div className="flex items-center">
+          <span className="text-[#2E2E30] text-sm mr-2">Сплит</span>
+          <img src="/assets/icons/2.svg" alt="Arrow" className="w-4 h-4"/>
+        </div>
+</div>
+</div>
+
+<button className="bg-[#2E2E30] text-white w-full p-4 flex items-center justify-between mt-4">
+      <span className="text-sm">Добавить в корзину</span>
+      <span className="text-sm">Размер 15</span>
+    </button>
+
+
+<div className="flex space-x-4 mt-4">
+  <div className="border border-[#808080] p-4 flex items-center justify-between w-full">
+    <span className="text-[#2E2E30] text-sm">Купить в один клик</span>
+  </div>
+
+  <div className="border border-[#808080] p-4 flex items-center max-w-[48px] max-h-[48px]">
+    <div className="flex items-center">
+      <img src="/assets/icons/heart.svg" alt="heart" className="w-10 h-10"/>
+    </div>
+  </div>
+
+  <div className="border border-[#808080] p-4 flex items-center max-w-[48px] max-h-[48px]">
+    <div className="flex items-center">
+      <img src="/assets/icons/chopsticks.svg" alt="chopsticks" className="w-8 h-8"/>
+    </div>
+  </div>
+
+  <div className="border border-[#808080] p-4 flex items-center max-w-[48px] max-h-[48px]">
+    <div className="flex items-center">
+      <img src="/assets/icons/jopa.svg" alt="share" className="w-8 h-8"/>
+    </div>
+  </div>
+</div>
+
+
+    
   </div>
     
 
