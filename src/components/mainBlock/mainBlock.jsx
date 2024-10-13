@@ -269,6 +269,39 @@ const MainBlock = () => {
 </div>
 
 
+
+<div className="flex space-x-4 mt-4">
+      <div className="border border-[#808080] p-4 flex items-center justify-between w-full ">
+        <div className='flex flex-col'>
+        <span className="text-[#2E2E30] text-sm">В наличии</span>
+        <span className="text-[#2E2E30] text-l mr-2 font-bold	 "> В одном магазине</span>
+        </div>
+   
+
+        <div className="flex items-center">
+          <img src="/assets/icons/2.svg" alt="Arrow" className="w-4 h-4"/>
+        </div>
+      </div>
+
+</div>
+
+
+
+<div className="flex space-x-4 mt-4">
+      <div className="border border-[#808080] p-4 flex items-center justify-between w-full ">
+        <div className='flex flex-col'>
+        <span className="text-[#2E2E30] text-sm">Дополните образ</span>
+        <span className="text-[#2E2E30] text-l mr-2 font-bold">4 изделия</span>
+        </div>
+   
+
+        <div className="flex items-center">
+          <img src="/assets/icons/2.svg" alt="Arrow" className="w-4 h-4"/>
+        </div>
+      </div>
+
+</div>
+,
     
   </div>
     
